@@ -1,0 +1,632 @@
+*{margin:0; padding:0; font-family: 'Montserrat';}
+
+body, html {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+*{margin:0; padding:0;}
+
+section{width:100%; height:90%; float:left;}
+
+
+h1, h2 {color:#fff; text-align:center; margin-top:10px;}
+
+
+hr {
+	height: 4px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: rgb(0,170,255); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(0,170,255,0.8) 0%, rgba(183,231,255,0.5) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,170,255,0.8) 0%, rgba(183,231,255,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,170,255,0.8) 0%, rgba(183,231,255,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D19F43', endColorstr='#DFAF56', GradientType=1 ); /* IE6-9 */
+	margin: 0 auto;
+	margin-top: 1%;
+	margin-bottom: 30px;
+	border: 0;
+}
+
+
+/* Section Home  */
+
+#accueil{
+	display: table;
+	height: 100%;
+}
+
+#home {
+	background: url("../img/portail.jpg") no-repeat center center;	
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;	
+	-o-background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.btn {
+	padding: 20px 20px;
+	color: #fff;
+	background-color: #00559A;
+	border-color: #00559A;
+	border-radius: 8px;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	width: 90px;
+	text-align: center;
+	text-decoration: none;
+}
+.btn:hover{
+	color: #ffffff;
+	background-color: #00AAFF;
+}
+
+
+.btn-centre{
+	display:block;
+ 	margin-left : auto;
+	margin-right: auto;
+	margin-top: 0px;
+	width: 15%;
+}
+
+.vide{
+	height: 30%;
+}
+
+.over {
+	height: 100%;
+	background: rgb(60,60,60); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(60,60,60,0.5) 0%, rgba(60,60,60,0.5) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(60,60,60,0.5) 0%, rgba(60,60,60,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(60,60,60,0.5) 0%, rgba(60,60,60,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C06060', endColorstr='#AB694D', GradientType=1 ); /* IE6-9 */
+
+}
+.home-text {
+	padding-top: 18%;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+/* Fin Home Section */
+
+/* Navigation */
+
+#navigation{
+	width:100%;
+	background:#fff;
+	height:8%;
+	border: 1px solid #939393;
+}
+
+ul{width:fit-content; margin:auto; list-style:none;}
+li{margin-top: 4%;}
+
+ul li{float:left; margin-right:30px;}
+
+ul li a{color:#00559A; text-decoration:none;font-size: 18px; font-weight: 500;}
+
+ul li a:hover{color: #000}
+
+.fixNavigation{
+ z-index: 9999;
+ position: fixed;
+ top: 0;
+ /* Mise en forme */
+ width: 900px; /* <-- Largeur de votre site */
+ }
+
+/* Fin Navigation */
+
+/* Introduction */
+#introduction{
+	padding-top: 6%;
+}
+
+#introduction h1{
+	color:#00559A;
+	font-size: 30px;
+	padding-top: 3%;
+}
+
+.photo {
+	background: url(../img/5.jpg) no-repeat center;
+	background-size: cover;
+	height: 350px;
+	width: 350px;
+	border-radius: 250px;
+	margin-right: 8%;
+}
+
+.ligne2 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:center;
+	align-items: center;
+	margin: 0 auto;
+	height: fit-content;
+}
+		
+.intro {
+	width: 600px;
+	text-align: justify;
+	margin: 0%;
+}
+
+.intro-text {
+	margin-top: 5%;
+}
+
+.espace {
+	padding: 40px 20px 40px 0px;
+}
+
+.btn-gen {
+	padding: 20px 20px;
+	width: 90px;
+	color: #fff;
+	background-color: #00559A;
+	border-color: #00559A;
+	border-radius: 8px;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.btn-gen:hover{
+	color: #fffffff;
+	background-color: #00AAFF;
+}
+/* Fin Introduction */
+
+
+/* Entreprise */
+#entreprise{
+	background: url("../img/vienne.jpg") no-repeat center center;	
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;	
+	-o-background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.h1 {
+	padding-top: 10%;
+	font-size: 25px;	
+}
+
+.entreprise-text {
+	padding-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 25px;
+	color:#fff;
+	text-align: justify;
+	width: 70%;
+}
+
+.vide2 {
+	height: 12%;
+}
+
+.display{
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	padding-right: 20px;
+	color: #000000;
+	background-color: #ffffff;
+	border-radius: 8px;
+	height: 100px;
+	width: 700px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.pink{
+	width: 220px;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+}
+
+.picto1 {
+	background: url("../img/skills.png") no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;	
+	-o-background-size: cover;
+	height: auto;
+	width: 45%;
+}
+
+.picto2 {
+	background: url("../img/user.png") no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;	
+	-o-background-size: cover;
+	height: auto;
+	width: 37%;
+	margin-left: 15%;
+	margin-right: 8%;
+}
+
+#850{
+	padding-top: 20%;
+	
+}
+
+.picto3 {
+	background: url("../img/flag.png") no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;	
+	-o-background-size: cover;
+	height: auto;
+	width: 37%;
+}
+
+
+.chiffre {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.display-text {
+	display: flex;
+	flex-direction: column;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #3C3C3C;
+}
+
+/* Fin Entreprise */
+
+/* Missions */
+#missions{;padding-top: 6%;}
+
+#missions h1{
+	color:#00559A;
+	font-size: 30px;
+	padding-top: 1%;
+}
+
+.container {
+	margin-top: 3%;
+	height:100%;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+.ligne {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	height: fit-content;
+}
+
+.child {
+	width: 400px;
+	height: 550px;
+	margin-left: 50px;
+}		
+
+.overlay {
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+
+.overlay:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+
+.hover-bg {
+	height: 550px;
+	width: 400px;
+	overflow: hidden;
+	position: relative;
+		-moz-box-shadow: 5px 5px 12px #aaa;
+	-webkit-box-shadow: 5px 5px 12px #aaa;
+	box-shadow: 5px 5px 12px #aaa;
+}
+
+
+.hover-bg .hover-text {
+	position: absolute;
+	margin: 0 auto;
+	color: #ffffff;
+	text-align:center;
+	background: rgba(0, 85, 154, 0.45);
+	padding: 55% 2%;
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+	transition: all 0.5s;
+	font-size: 36px;
+}
+
+
+.hover-bg:hover .hover-text {
+	background: rgba(0, 0, 0, 0.45);
+}
+
+
+.hover-bg .hover-text>h4 {
+	opacity: 0;
+	color: #fff;
+	text-align:center;
+	font-weight: 400;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	transition: all 0.3s;
+}
+
+
+.hover-bg:hover .hover-text>h4 {
+	opacity: 1;
+	text-align:center;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.animate{transition:all 1s ease; opacity:0;}
+
+.orange {
+	background-color: orange;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.yellow {
+	background-color: gold;
+}
+
+/* Fin Missions */	
+
+
+/* Bilan */
+#bilan{
+	background: url("../img/fond-bleu.jpg") no-repeat center center;
+	padding-top: 6%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;	
+	-o-background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#bilan h1{
+	font-size: 30px;
+}
+
+.avenir{
+	width: 250px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+.picto4 {
+	background: url("../img/reading.png") no-repeat center center;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;	
+	-o-background-size: contain;
+	height: 100%;
+	width: auto;
+}
+
+.picto5 {
+	background: url("../img/magic-ball.png") no-repeat center center;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;	
+	-o-background-size: contain;
+	height: 100%;
+	width: auto;
+}
+
+.avenir-text {
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #3C3C3C;
+	padding-top: 4%;
+}
+
+/* Fin Bilan */
+
+/* Footer */
+#footer{
+	height: 10%;
+	width: 100%;
+	background-color: #222;
+	color: #777;
+	font-size: 15px;
+	text-align: center;
+	padding: 2% 0;
+}
+
+
+#linkedin {
+padding-bottom: 1%;
+height: 25px;
+background: url("../img/linkedin.png") no-repeat center;
+background-size: contain;
+}
+
+#linkedin:hover {
+background: url("../img/linkedin2.png") no-repeat center;
+background-size: contain;
+}
+
+#text-footer{
+	padding-top: 1%;
+	text-align:center;
+}
+/* Fin Footer */
+
+
+/* Responsivité */
+	@media screen and (max-width: 1300px) {
+		
+		section {
+			height:fit-content;
+		}
+		
+			.container {
+			height:fit-content;
+		}
+		
+		.h1 {
+			padding-top: 8%;
+			font-size: 25px;	
+		}
+		
+		.intro-text {
+			padding-left: 2%;
+			padding-right: 2%;
+		}
+		
+		.ligne{
+			padding-top: 3%;
+		}
+			
+		.child {
+			flex: 1 auto;
+			margin: 10px;
+  		}
+		
+		.entreprise-text {
+			padding-top: 6%;
+			margin-top: 0px;
+		}
+		
+		.vide2{
+			height: 3%;
+		}
+				
+		.display{
+			margin-top: 1%;
+			margin-left : auto;
+			margin-right: auto;
+			padding-top: 0px;
+			padding-right: 20px;
+		}
+			
+		.pink{
+			padding-bottom: 0px;
+		}
+		
+		.avenir{
+			padding-bottom: 0px;
+		}
+		
+		.btn-centre{
+			width: 25%;
+			margin-left : auto;
+			margin-right: auto;
+		}
+		
+		@media screen and (max-width: 870px) {
+			
+		section{
+			height: auto;
+			}
+		
+		ul li{margin-right:15px;}
+		
+		.intro {
+			width: auto;
+			margin: auto;
+		}
+			
+		.intro-text {
+			padding-left: 2%;
+			padding-right: 2%;
+		}
+		
+		.entreprise-text {
+			padding-top: 15px;
+			padding-left: 20px;
+			padding-right: 20px;
+			font-size: 20px;
+		}
+		
+		.vide2{
+			height: 2%;
+		}
+
+		.btn-centre{
+			padding-bottom: 20px;
+			margin-left : auto;
+			margin-right: auto;
+			width: 30%;
+		}
+			
+		.ligne {
+			flex-flow:column;
+  		}
+			
+		.display{
+			margin-left: 19%;
+			padding-top: 2%;
+			padding-right: 20px;
+			margin-bottom: 0px;
+			height: 300px;
+			width: 300px;
+		}
+			
+		.pink{
+			margin-top: 10px;
+			padding-bottom: 0px;
+		}
+			
+		.avenir{
+			margin-top: 8%;
+			padding-bottom: 0px;
+			margin-left: 5%;
+		}
+			
+  		.child {
+			margin: 10px;
+  		}
+		
+		.hover-bg{
+			margin: auto;
+			}
+		}
+		
+		.btn-gen {
+			margin-left: 25%;
+			padding-bottom: 20px;
+		}
+
+/* Fin Responsivité */

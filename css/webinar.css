@@ -46,12 +46,12 @@ a{text-decoration: none; }
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: url("../vr/portail.png") no-repeat center;
+	background: url("../webinar/webinar.png") no-repeat center;
 	background-size: cover;
 	will-change: transform;
 	height: 100%;
 	width: 50%;
-	filter: blur(10px);
+	filter: blur(5px);
 }
 	
 
@@ -91,6 +91,7 @@ a{text-decoration: none; }
 	margin: auto;
 }
 
+
 .a-container{
 	top: 0;
 	left: 0;
@@ -110,7 +111,7 @@ a{text-decoration: none; }
 
 .image-container{
 	top: 5%;
-	margin-top: 2%;
+	margin-top: 4%;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -129,7 +130,6 @@ a{text-decoration: none; }
 	text-align: justify;
 	float: right;
 	margin-left: 2%;
-	margin-top: 4%;
 }
 
 
@@ -142,7 +142,7 @@ a{text-decoration: none; }
 	text-align: justify;
 	float: left;
 	margin-right: 3%;
-	margin-top: 4%;
+	margin-top: 3%;
 }
 
 .container2{
@@ -159,7 +159,7 @@ a{text-decoration: none; }
 /* Parallaxe*/
 
 .parallaxe{
-	background: url("../vr/vienne.jpg") no-repeat center;
+	background: url("../webinar/webinar2.png") no-repeat center;
 	background-attachment: fixed;
 	background-size: 100%;
 	background-size:cover;

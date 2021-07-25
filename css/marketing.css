@@ -46,7 +46,7 @@ a{text-decoration: none; }
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: url("../vr/portail.png") no-repeat center;
+	background: url("../marketing/1.png") no-repeat center;
 	background-size: cover;
 	will-change: transform;
 	height: 100%;
@@ -91,6 +91,7 @@ a{text-decoration: none; }
 	margin: auto;
 }
 
+
 .a-container{
 	top: 0;
 	left: 0;
@@ -129,7 +130,7 @@ a{text-decoration: none; }
 	text-align: justify;
 	float: right;
 	margin-left: 2%;
-	margin-top: 4%;
+	margin-top: 1%;
 }
 
 
@@ -142,7 +143,7 @@ a{text-decoration: none; }
 	text-align: justify;
 	float: left;
 	margin-right: 3%;
-	margin-top: 4%;
+	margin-top: 1%;
 }
 
 .container2{
@@ -159,7 +160,7 @@ a{text-decoration: none; }
 /* Parallaxe*/
 
 .parallaxe{
-	background: url("../vr/vienne.jpg") no-repeat center;
+	background: url("../marketing/application.png") no-repeat center;
 	background-attachment: fixed;
 	background-size: 100%;
 	background-size:cover;
@@ -168,7 +169,14 @@ a{text-decoration: none; }
     }	
 /* END Parallaxe */
 
-/* Bouton */
+/* Diaporama Soutenance */
+.soutenance{
+	height: 600px;
+	width: auto;
+	-moz-box-shadow: 5px 5px 12px #aaa;
+	-webkit-box-shadow: 5px 5px 12px #aaa;
+	box-shadow: 5px 5px 12px #aaa;
+}
 
 .btn {
 	padding: 20px 20px;
@@ -198,13 +206,15 @@ a{text-decoration: none; }
 }
 
 
-/* END Bouton */
+/* END Diaporama Soutenance */
 
 
 @media screen and (max-width: 800px) {
+	header{margin-bottom: 30%;}
 	.image-container{ width: 100%;}
 	.texte{width: 100%;margin-top: 10%;}
 	.texte2{width: 100%;margin-top: 10%;}
 	.intro-petite-image{left: 5%;}
+	.soutenance{ height:auto; width: 100%;}
 	.btn-centre{padding-bottom: 20px;margin-left : auto;margin-right: auto;width: 30%;}
 }

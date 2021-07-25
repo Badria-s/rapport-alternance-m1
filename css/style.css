@@ -1,3 +1,6 @@
+/*J'ai codé mon site entièrement à la main, peut-être qu'un jour j'apprendrai à utiliser Bootsrtap `;)*/
+/*Le nom des class et id est un peu aléatoire*/
+
 *{margin:0; padding:0; font-family: 'Montserrat';}
 
 body, html {
@@ -113,33 +116,48 @@ ul li a{color:#00559A; text-decoration:none;font-size: 18px; font-weight: 500;}
 ul li a:hover{color: #000}
 
 .fixNavigation{
- z-index: 9999;
- position: fixed;
- top: 0;
- /* Mise en forme */
- width: 900px; /* <-- Largeur de votre site */
+ 	z-index: 9999;
+ 	position: fixed;
+ 	top: 0;
+ 	/* Mise en forme */
+ 	width: 100%; /* <-- Largeur de votre site */
  }
 
 /* Fin Navigation */
 
 /* Introduction */
 #introduction{
-	padding-top: 6%;
+	height: 100%;
 }
 
 #introduction h1{
 	color:#00559A;
 	font-size: 30px;
-	padding-top: 3%;
+}
+
+
+.carre {
+	background-color: #00559A;
+	width: 35%;
+	height: 100%;
 }
 
 .photo {
 	background: url(../img/5.jpg) no-repeat center;
 	background-size: cover;
-	height: 350px;
-	width: 350px;
-	border-radius: 250px;
-	margin-right: 8%;
+	height: 75%;
+	width: 30%;
+	position: absolute;
+	margin-left: 18%;
+	margin-top: 5%;
+	-moz-box-shadow: 5px 5px 12px #7C7C7C;
+	-webkit-box-shadow: 5px 5px 12px #7C7C7C;
+	box-shadow: 5px 5px 20px #7C7C7C;
+}
+
+.grande-intro {
+	height: 100%;
+	width: 100%;
 }
 
 .ligne2 {
@@ -148,17 +166,45 @@ ul li a:hover{color: #000}
 	justify-content:center;
 	align-items: center;
 	margin: 0 auto;
-	height: fit-content;
+	height: 100%;
+	width: 100%;
 }
 		
 .intro {
-	width: 600px;
+	width: 35%;
 	text-align: justify;
-	margin: 0%;
+	margin: 0 auto;
+	padding-left: 13%;
+	height: 100%;
+}
+
+.intro h1{
+	text-align: left;
+}
+
+.intro hr{
+	text-align: left;
+	margin-left: 0px;
+	margin-top: 3%;
+}
+
+h3{
+	font-size: 23px;
+	color: #00559A;
+}
+
+h4{
+	color: #00AAFF;
 }
 
 .intro-text {
-	margin-top: 5%;
+	margin-top: 3%;
+	font-size: 17px;
+	color: #494949;
+}
+
+.intro-text2 {
+	padding-top: 18%;
 }
 
 .espace {
@@ -181,6 +227,12 @@ ul li a:hover{color: #000}
 	color: #fffffff;
 	background-color: #00AAFF;
 }
+
+.vide3{
+	height: 3%;
+	width: 100%;
+}
+
 /* Fin Introduction */
 
 
@@ -348,7 +400,7 @@ ul li a:hover{color: #000}
 	width: 400px;
 	overflow: hidden;
 	position: relative;
-		-moz-box-shadow: 5px 5px 12px #aaa;
+	-moz-box-shadow: 5px 5px 12px #aaa;
 	-webkit-box-shadow: 5px 5px 12px #aaa;
 	box-shadow: 5px 5px 12px #aaa;
 }
@@ -510,6 +562,12 @@ background-size: contain;
 			font-size: 25px;	
 		}
 		
+		.photo{
+			margin-right: 0px;
+			height: 60%;
+			width: 30%;
+		}
+		
 		.intro-text {
 			padding-left: 2%;
 			padding-right: 2%;
@@ -557,76 +615,55 @@ background-size: contain;
 		
 		@media screen and (max-width: 870px) {
 			
-		section{
-			height: auto;
-			}
+		section{height: auto; margin-bottom: 30%;}
 		
 		ul li{margin-right:15px;}
-		
-		.intro {
-			width: auto;
-			margin: auto;
-		}
 			
-		.intro-text {
-			padding-left: 2%;
-			padding-right: 2%;
-		}
+		hr{margin-bottom: 10px;}
+			
+		#introduction h1{padding-left: 2%;}
+			
+		#introduction hr{margin-left: 2%;}
+			
+		h3{padding-top: 0%; padding-left: 2%;}
 		
-		.entreprise-text {
-			padding-top: 15px;
-			padding-left: 20px;
-			padding-right: 20px;
-			font-size: 20px;
-		}
+		h4{padding-left: 2%;}
+			
+		.grande-intro{height: 50%;}
 		
-		.vide2{
-			height: 2%;
-		}
+		.intro {width: auto; margin: auto; padding-left: 0px;}
+			
+		.intro-text {padding-left: 2%; padding-right: 2%;}
+		
+		.intro-text2 {padding-top: 0%;}
+		
+		.ligne2 {flex-flow:column; height: auto;}
+		
+		.carre{width: 0px; height: 0px;}
+			
+		.photo{height: 60%; width: 50%; position: relative; margin-left: 2%; margin-top: auto;}
+	
+		#entreprise{height: 110%;}
+			
+		.entreprise-text {padding-top: 15px; padding-left: 20px; padding-right: 20px; font-size: 20px;}
+		
+		.vide2{height: 2%;}
 
-		.btn-centre{
-			padding-bottom: 20px;
-			margin-left : auto;
-			margin-right: auto;
-			width: 30%;
-		}
+		.btn-centre{padding-bottom: 20px; margin-left : auto; margin-right: auto; width: 30%;}
 			
-		.ligne {
-			flex-flow:column;
-  		}
+		.ligne {flex-flow:column;}
 			
-		.display{
-			margin-left: 19%;
-			padding-top: 2%;
-			padding-right: 20px;
-			margin-bottom: 0px;
-			height: 300px;
-			width: 300px;
-		}
+		.display{margin-left: 19%; padding-top: 2%; padding-right: 20px; margin-bottom: 0px; height: auto; width: 300px;}
 			
-		.pink{
-			margin-top: 10px;
-			padding-bottom: 0px;
-		}
+		.pink{margin-top: 10px; padding-bottom: 0px;}
 			
-		.avenir{
-			margin-top: 8%;
-			padding-bottom: 0px;
-			margin-left: 5%;
-		}
+		.avenir{margin-top: 1%; padding-bottom: 0px; margin-left: 5%;}
 			
-  		.child {
-			margin: 10px;
-  		}
+  		.child {margin: 10px;}
 		
-		.hover-bg{
-			margin: auto;
-			}
-		}
+		.hover-bg{margin: auto;}
 		
-		.btn-gen {
-			margin-left: 25%;
-			padding-bottom: 20px;
-		}
-
+		.btn-gen {margin-left: 25%; padding-bottom: 20px;}
+		
+}
 /* Fin Responsivité */

@@ -46,7 +46,7 @@ a{text-decoration: none; }
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: url("../vr/portail.png") no-repeat center;
+	background: url("../img/5.jpg") no-repeat center;
 	background-size: cover;
 	will-change: transform;
 	height: 100%;
@@ -58,13 +58,13 @@ a{text-decoration: none; }
 .intro-petite-image{
 	position: absolute;
 	top: 50%;
-	left: 10%;
+	left: 15%;
 	right: 10%;
 	transform: translate3d(0,-50%,0);
 	width: 50%;
 }
 
-.intro-texte h1{margin-top: 38%; color :#00559a;}
+.intro-texte h1{margin-top: 20%; color :#00559a;}
 .intro-texte{
 	position: absolute;
 	top: 0;
@@ -142,7 +142,7 @@ a{text-decoration: none; }
 	text-align: justify;
 	float: left;
 	margin-right: 3%;
-	margin-top: 4%;
+	margin-top: 3%;
 }
 
 .container2{
@@ -159,7 +159,7 @@ a{text-decoration: none; }
 /* Parallaxe*/
 
 .parallaxe{
-	background: url("../vr/vienne.jpg") no-repeat center;
+	background: url("../bilan/fond-ecran.jpeg") no-repeat center;
 	background-attachment: fixed;
 	background-size: 100%;
 	background-size:cover;
@@ -200,11 +200,127 @@ a{text-decoration: none; }
 
 /* END Bouton */
 
+/* Avenir */
+.ligne2 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:center;
+	align-items: center;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+}
+
+.avenir{
+	width: 200px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	margin-left : auto;
+	margin-right: auto;
+}
+
+.picto{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:center;
+	align-items: center;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+}
+.picto1 {
+	background: url("../bilan/mmi.jpg") no-repeat center center;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;	
+	-o-background-size: contain;
+	height: 100%;
+	width: 50%;
+}
+
+.picto2 {
+	background: url("../bilan/fjj.jpg") no-repeat center center;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;	
+	-o-background-size: contain;
+	height: 100%;
+	width: 40%;
+}
+
+.picto3 {
+	background: url("../bilan/hetic.png") no-repeat center center;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;	
+	-o-background-size: contain;
+	height: 100%;
+	width: 50%;
+}
+
+.picto4 {
+	background: url("../bilan/vr.jpg") no-repeat center center;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;	
+	-o-background-size: contain;
+	height: 100%;
+	width: 40%;
+	margin-right: 20px;
+}
+
+.picto5 {
+	background: url("../bilan/esd.jpg") no-repeat center center;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;	
+	-o-background-size: contain;
+	height: 100%;
+	width: 40%;
+	margin-right: 20px;
+}
+
+.picto6 {
+	background: url("../bilan/resoneo.jpg") no-repeat center center;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;	
+	-o-background-size: contain;
+	height: 100%;
+	width: 50%;
+}
+
+.formation {
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #3C3C3C;
+	padding-top: 4%;
+	text-align: center;
+}
+
+.avenir-text {
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+	font-weight: bold;
+	color: #3C3C3C;
+	padding-top: 4%;
+	text-align: center;
+}
+
+/* Avenir */
+
 
 @media screen and (max-width: 800px) {
+	header{margin-bottom: 200%;}
 	.image-container{ width: 100%;}
-	.texte{width: 100%;margin-top: 10%;}
-	.texte2{width: 100%;margin-top: 10%;}
+	.texte{width: 100%; margin-top: 10%;}
+	.texte2{width: 100%; margin-top: 10%;}
 	.intro-petite-image{left: 5%;}
-	.btn-centre{padding-bottom: 20px;margin-left : auto;margin-right: auto;width: 30%;}
+	.btn-centre{padding-bottom: 20px; margin-left : auto; margin-right: auto; width: 30%;}
+	.avenir{margin-top: 1%; padding-bottom: 0px; margin-left: 5%;}
 }

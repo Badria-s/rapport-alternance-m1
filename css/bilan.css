@@ -213,7 +213,7 @@ a{text-decoration: none; }
 
 .avenir{
 	width: 200px;
-	height: 250px;
+	height: 210px;
 	display: flex;
 	flex-direction: column;
 	margin-left : auto;
@@ -230,7 +230,7 @@ a{text-decoration: none; }
 	width: 100%;
 }
 .picto1 {
-	background: url("../bilan/mmi.jpg") no-repeat center center;
+	background: url("../bilan/mmi.png") no-repeat center center;
 	background-size: contain;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;	
@@ -240,7 +240,7 @@ a{text-decoration: none; }
 }
 
 .picto2 {
-	background: url("../bilan/fjj.jpg") no-repeat center center;
+	background: url("../bilan/fjj.png") no-repeat center center;
 	background-size: contain;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;	
@@ -260,7 +260,7 @@ a{text-decoration: none; }
 }
 
 .picto4 {
-	background: url("../bilan/vr.jpg") no-repeat center center;
+	background: url("../bilan/vr.png") no-repeat center center;
 	background-size: contain;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;	
@@ -271,7 +271,7 @@ a{text-decoration: none; }
 }
 
 .picto5 {
-	background: url("../bilan/esd.jpg") no-repeat center center;
+	background: url("../bilan/esd.png") no-repeat center center;
 	background-size: contain;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;	
@@ -282,7 +282,7 @@ a{text-decoration: none; }
 }
 
 .picto6 {
-	background: url("../bilan/resoneo.jpg") no-repeat center center;
+	background: url("../bilan/resoneo.png") no-repeat center center;
 	background-size: contain;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;	
@@ -297,8 +297,7 @@ a{text-decoration: none; }
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #3C3C3C;
-	padding-top: 4%;
+	color: #00559A;
 	text-align: center;
 }
 
@@ -310,6 +309,51 @@ a{text-decoration: none; }
 	color: #3C3C3C;
 	padding-top: 4%;
 	text-align: center;
+}
+
+.date {
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+	font-weight: bold;
+	color: #00AAFF;
+	padding-top: 4%;
+	text-align: center;
+}
+
+.timeline {
+	height: 2px;
+	width: 95%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	background-color: #C2C2C2;
+	border-radius: 1px;
+}
+
+ul {
+	margin: 0 auto;
+	padding-left: 10%;
+	height: auto;
+	width: auto;
+}
+
+ ul li {
+	color: #00AAFF;
+	float: left;
+	font-size: 50px;
+	 margin-top: -31px;
+}
+
+.last {
+	padding-right: 23%;
+}
+
+.last2 {
+	padding-right: 24%;
+}
+
+.last3 {
+	padding-right: 24%;
 }
 
 /* Avenir */
